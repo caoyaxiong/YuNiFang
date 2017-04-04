@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#fff"
+    android:id="@+id/pop_layout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/popupwindow_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#fc6b87"
+                android:id="@+id/popupwindow_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asd" />
+
+            <TextView
+                android:id="@+id/popupwindow_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asd" />
+
+            <TextView
+                android:id="@+id/popupwindow_xian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asd" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/gwc_lv_zi"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:id="@+id/gwc_lv_tv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:text="购买数量"/>
+
+        <ImageView
+            android:id="@+id/gwc_lv_img3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/jian" />
+
+        <TextView
+            android:id="@+id/popupwindow_buy_num"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/gwc_lv_img4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/jia" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:id="@+id/popupwindow_OK"
+        android:background="#fc6b87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"/>
+
+</LinearLayout>
